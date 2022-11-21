@@ -1,0 +1,10 @@
+<f:if condition="{processedRow.tx_altaahaccordion_acco}">
+    <strong><f:translate key="LLL:EXT:altaahaccordion/Resources/Private/Language/locallang_db.xlf:tt_content.tx_altaahaccordion_acco" /></strong>
+<br><f:for each="{processedRow.tx_altaahaccordion_acco}" as="item">
+    <ul>
+        <li>
+            <f:translate key="LLL:EXT:altaahaccordion/Resources/Private/Language/locallang_db.xlf:tx_altaahaccordion_acco.tx_altaahaccordion_accoheader" /> {item.tx_altaahaccordion_accoheader} (id={item.uid})<br/>
+        </li>
+    </ul>
+</f:for>
+</f:if>

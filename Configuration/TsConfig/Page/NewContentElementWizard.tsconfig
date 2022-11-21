@@ -1,0 +1,13 @@
+mod.wizards.newContentElement.wizardItems.common {
+    elements {
+            accordion {
+                iconIdentifier = tx_altaahaccordion_accordion
+                title = LLL:EXT:altaahaccordion/Resources/Private/Language/locallang_db_new_content_el.xlf:wizards.newContentElement.accordion_title
+                description = LLL:EXT:altaahaccordion/Resources/Private/Language/locallang_db_new_content_el.xlf:wizards.newContentElement.accordion_description
+                tt_content_defValues {
+                    CType = altaahaccordion_accordion
+                }
+            }
+    }
+    show := addToList(accordion)
+}

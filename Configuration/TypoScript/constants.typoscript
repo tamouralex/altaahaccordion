@@ -1,0 +1,8 @@
+# cat=altaahaccordion/file; type=string; label=Path to template root (FE)
+plugin.tx_altaahaccordion.view.templateRootPath =
+
+# cat=altaahaccordion/file; type=string; label=Path to template partials (FE)
+plugin.tx_altaahaccordion.view.partialRootPath = EXT:altaah1package/Resources/Private/Partials/ContentElements/
+
+# cat=altaahaccordion/file; type=string; label=Path to template layouts (FE)
+plugin.tx_altaahaccordion.view.layoutRootPath = EXT:altaah1package/Resources/Private/Layouts/ContentElements/

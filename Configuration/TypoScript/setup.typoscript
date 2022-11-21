@@ -1,0 +1,25 @@
+tt_content.altaahaccordion_accordion = FLUIDTEMPLATE
+tt_content.altaahaccordion_accordion {
+    layoutRootPaths.0 = EXT:altaahaccordion/Resources/Private/Layouts/
+    layoutRootPaths.10 = {$plugin.tx_altaahaccordion.view.layoutRootPath}
+    partialRootPaths.0 = EXT:altaahaccordion/Resources/Private/Partials/
+    partialRootPaths.10 = {$plugin.tx_altaahaccordion.view.partialRootPath}
+    templateRootPaths.0 = EXT:altaahaccordion/Resources/Private/Templates/Content/
+    templateRootPaths.10 = {$plugin.tx_altaahaccordion.view.templateRootPath}
+    templateName = Accordion
+    dataProcessing.10 = TYPO3\CMS\Frontend\DataProcessing\DatabaseQueryProcessor
+    dataProcessing.10 {
+        if.isTrue.field = tx_altaahaccordion_acco
+        table = tx_altaahaccordion_acco
+        pidInList.field = pid
+        where = parentid=###uid### AND deleted=0 AND hidden=0
+        orderBy = sorting
+        markers.uid.field = uid
+        as = data_tx_altaahaccordion_acco
+    }
+}
+tt_content.altaahaccordion_accordion {
+    settings {
+        defaultHeaderType = 2
+        }
+}

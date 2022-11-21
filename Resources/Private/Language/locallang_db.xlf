@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2022-11-21T13:43:37+01:00" product-name="altaahaccordion">
+    <header/>
+    <body>
+      <trans-unit id="tx_altaahaccordion_acco">
+        <source>tx_altaahaccordion_acco</source>
+      </trans-unit>
+      <trans-unit id="tx_altaahaccordion_acco.tx_altaahaccordion_accoheader">
+        <source>Accordeonitemheader</source>
+      </trans-unit>
+      <trans-unit id="tx_altaahaccordion_acco.tx_altaahaccordion_accocontent">
+        <source>Content off  Item</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_altaahaccordion_acco">
+        <source>Next accordion item</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.div._altaahaccordion_">
+        <source>altaahaccordion</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.altaahaccordion_accordion">
+        <source>Accordion</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
